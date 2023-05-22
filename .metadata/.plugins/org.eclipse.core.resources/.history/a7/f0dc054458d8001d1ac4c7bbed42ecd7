@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/Test2_NewXMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.org/Test2_NewXMLSchema">
+
+    <complexType name="JsonType">
+    	<sequence>
+    		<element name="ID" type="string"/>
+    		<element name="NAME" type="string"/>
+    		<element name="COMPANY" type="string"/>
+    		<element name="LOCATION" type="string"/>
+    		<element name="RATING" type="string"/>
+    	</sequence>
+    </complexType>
+
+    <element name="JsonElement" type="tns:JsonType"/>
+</schema>

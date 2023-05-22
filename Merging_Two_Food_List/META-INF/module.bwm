@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_P0ZbIOsGEe2Ao7zRNiW7zw" targetNamespace="http://tns.tibco.com/bw/composite/Merging_Two_Food_List" name="Merging_Two_Food_List" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_QLUGUOsGEe2Ao7zRNiW7zw" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLcpMOsGEe2Ao7zRNiW7zw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLg6oOsGEe2Ao7zRNiW7zw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLmaMOsGEe2Ao7zRNiW7zw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLqEkOsGEe2Ao7zRNiW7zw" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLtu8OsGEe2Ao7zRNiW7zw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QLz1kOsGEe2Ao7zRNiW7zw" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QL4uEOsGEe2Ao7zRNiW7zw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QL8_gOsGEe2Ao7zRNiW7zw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_QA_ssOsGEe2Ao7zRNiW7zw" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_QA_ssesGEe2Ao7zRNiW7zw" processName="merging_two_food_list.Process"/>
+  </sca:component>
+</sca:composite>

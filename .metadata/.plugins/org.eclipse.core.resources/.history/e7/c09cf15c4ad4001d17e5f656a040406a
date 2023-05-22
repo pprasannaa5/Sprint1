@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.test_1">
+    <globalDestinations/>
+    <edition>bwe</edition>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_XPAWINRKEe2Hef7_Bq5XIw" kind="com.tibco.amx.zion.schema" location="Schemas"/>
+  </config:specialFolders>
+</config:ProjectConfig>

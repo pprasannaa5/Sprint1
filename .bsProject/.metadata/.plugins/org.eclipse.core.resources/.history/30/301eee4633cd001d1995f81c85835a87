@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/sqldirect" xmlns:tns="http://www.example.org/sqldirect" elementFormDefault="qualified">
+
+    <complexType name="column">
+    	<sequence>
+    		<element name="name" type="string" maxOccurs="1" minOccurs="0"></element>
+    		<element name="value" type="string" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="column" type="tns:column"></element>
+
+    <complexType name="row">
+    	<sequence>
+    		<element name="column" type="tns:column" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="row" type="tns:row"></element>
+
+    <complexType name="unknownResultset">
+    	<sequence>
+    		<element name="row" type="tns:row" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="unknownResultset" type="tns:unknownResultset"></element>
+</schema>

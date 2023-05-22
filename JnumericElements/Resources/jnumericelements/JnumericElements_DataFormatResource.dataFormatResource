@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_327ec790-5cd1-4a34-95a0-b9ad023565ad="http://ns.tibco.com/bw/palette/dataformat/327ec790-5cd1-4a34-95a0-b9ad023565ad" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_djPucdj3Ee29zM-VFJlSbQ" name="jnumericelements.JnumericElements_DataFormatResource" type="dataformat:DataFormat">
+  <imports xmi:id="_nSGZYNj3Ee29zM-VFJlSbQ" importType="http://www.w3.org/2001/XMLSchema" namespace="http://ns.tibco.com/bw/palette/dataformat/327ec790-5cd1-4a34-95a0-b9ad023565ad"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_djQVgNj3Ee29zM-VFJlSbQ" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="_327ec790-5cd1-4a34-95a0-b9ad023565ad:root" fieldOffsetsStr="ID(0,0)&#xA;NAME(0,0)&#xA;COMPANY(0,0)&#xA;LOCATION(0,0)&#xA;RATING(0,0)">
+    <fieldOffsets xmi:id="_nTYLwNj3Ee29zM-VFJlSbQ" name="ID"/>
+    <fieldOffsets xmi:id="_nTYLwdj3Ee29zM-VFJlSbQ" name="NAME"/>
+    <fieldOffsets xmi:id="_nTYLwtj3Ee29zM-VFJlSbQ" name="COMPANY"/>
+    <fieldOffsets xmi:id="_nTYLw9j3Ee29zM-VFJlSbQ" name="LOCATION"/>
+    <fieldOffsets xmi:id="_nTYLxNj3Ee29zM-VFJlSbQ" name="RATING"/>
+  </jndi:configuration>
+</jndi:namedResource>

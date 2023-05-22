@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_qXU6YNj2Ee29zM-VFJlSbQ" targetNamespace="http://tns.tibco.com/bw/composite/JnumericElements" name="JnumericElements" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_Nb53cNj3Ee29zM-VFJlSbQ" name="jnumericelements" promote="ComponentJnumericElements/jnumericelements">
+    <sca:interface.wsdl xmi:id="_NcPOoNj3Ee29zM-VFJlSbQ" interface="http://xmlns.example.com/20230412112938PLT#wsdl.interface(jnumericelements)" scaext:wsdlLocation="../Processes/jnumericelements/JnumericElements.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_NcgUYNj3Ee29zM-VFJlSbQ" name="RestService" path="/jnumericelements" docBasePath="http://localhost:7777/JnumericElements" docResourcePath="JnumericElements" basePath="/" connector="jnumericelements.JnumericElements" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/jnumericelements.JnumericElements-JnumericElements.json">
+      <operation xmi:id="_NchigNj3Ee29zM-VFJlSbQ" operationName="post" nickname="post-jnumericelements" httpMethod="POST" responseStyle="element" requestStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <advancedConfig xmi:id="_NcgUYdj3Ee29zM-VFJlSbQ" blockingQueueSize="2147483647"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_NciJkNj3Ee29zM-VFJlSbQ" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_qyKcQNj2Ee29zM-VFJlSbQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyVbYNj2Ee29zM-VFJlSbQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qycwINj2Ee29zM-VFJlSbQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qyi2wNj2Ee29zM-VFJlSbQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qypkcNj2Ee29zM-VFJlSbQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qywSINj2Ee29zM-VFJlSbQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qy2_0Nj2Ee29zM-VFJlSbQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qy9GcNj2Ee29zM-VFJlSbQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qzDNENj2Ee29zM-VFJlSbQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_NbkgQNj3Ee29zM-VFJlSbQ" name="ComponentJnumericElements" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_NbkgQdj3Ee29zM-VFJlSbQ" processName="jnumericelements.JnumericElements"/>
+    <sca:service xmi:id="_NbuRQNj3Ee29zM-VFJlSbQ" name="jnumericelements">
+      <sca:interface.wsdl xmi:id="_NbxUkNj3Ee29zM-VFJlSbQ" interface="http://xmlns.example.com/20230412112938PLT#wsdl.interface(jnumericelements)" scaext:wsdlLocation="../Processes/jnumericelements/JnumericElements.bwp"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_59I2ANkUEe2zg-OsGDdbBQ" name="ComponentJnumericElements_ClientProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_59I2AdkUEe2zg-OsGDdbBQ" processName="jnumericelements.JnumericElements_ClientProcess"/>
+  </sca:component>
+</sca:composite>

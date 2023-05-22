@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/JSONNumeric/Service Descriptors/jsonnumeric.Process-JsonNumeric.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://tns.tibco.com/bw/json/1681294817937"
+}]}

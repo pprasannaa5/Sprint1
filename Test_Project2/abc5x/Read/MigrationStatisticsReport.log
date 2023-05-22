@@ -1,0 +1,16 @@
+2023-04-14 18:42:14,069 [Worker-39] INFO  com.tibco.bw.migration.stats  - Migrating Business Works 5.x projects to version 6 using arguments:: 
+[Target Project Directory: e:\practice2/Test_Project2/abc5x/Read ]
+[Source Project Directory: c:\tibcobw5\designer\5.7\Test_Project2\abc5x\Read ]
+[Project Name: Read ]
+
+
+------------------ Migration Statistics ----------------
+
+Project Migration Time [Millisecond]: 3205
+
+
+Artifacts Migrated [Count]
+1. Process Migrated:1
+2. WSDL Migrated:0
+3. Schema Migrated:0
+4. XSLT Migrated:0

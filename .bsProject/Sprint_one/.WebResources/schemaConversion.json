@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/Sprint_one/Service Descriptors/sprint_one.Stateless_test-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1680073897018"
+    },
+    {
+        "jsonSchemaLocation": "/Sprint_one/Service Descriptors/sprint_one.Stateless_test-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1680073940471"
+    }
+]}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:_421bbed9-494e-4dd3-934e-08ec7e3ac5b6="http://ns.tibco.com/bw/palette/dataformat/421bbed9-494e-4dd3-934e-08ec7e3ac5b6" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_0_zXUepBEe2-YpXFrXKi4g" name="totalordersamount.TotalOrdersAmount_DataFormatResource1" type="dataformat:DataFormat">
+  <imports xmi:id="_B_s8QOpCEe2-YpXFrXKi4g" importType="http://www.w3.org/2001/XMLSchema" namespace="http://ns.tibco.com/bw/palette/dataformat/421bbed9-494e-4dd3-934e-08ec7e3ac5b6"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_0_zXUupBEe2-YpXFrXKi4g" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="_421bbed9-494e-4dd3-934e-08ec7e3ac5b6:root" fieldOffsetsStr="s.no(0,0)&#xA;customer_name(0,0)&#xA;customer_id(0,0)&#xA;order_name(0,0)&#xA;order_price(0,0)">
+    <fieldOffsets xmi:id="_CBRCgOpCEe2-YpXFrXKi4g" name="s.no"/>
+    <fieldOffsets xmi:id="_CBRCgepCEe2-YpXFrXKi4g" name="customer_name"/>
+    <fieldOffsets xmi:id="_CBRCgupCEe2-YpXFrXKi4g" name="customer_id"/>
+    <fieldOffsets xmi:id="_CBRCg-pCEe2-YpXFrXKi4g" name="order_name"/>
+    <fieldOffsets xmi:id="_CBRChOpCEe2-YpXFrXKi4g" name="order_price"/>
+  </jndi:configuration>
+</jndi:namedResource>

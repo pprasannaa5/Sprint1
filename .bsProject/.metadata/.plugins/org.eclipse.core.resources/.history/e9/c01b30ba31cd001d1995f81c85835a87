@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/sqldirect" elementFormDefault="qualified" targetNamespace="http://www.example.org/sqldirect">
+
+    <complexType name="row">
+    	<sequence>
+    		<element name="name" type="string"/>
+    		<element name="value" type="string"/>
+    	</sequence>
+    </complexType>
+
+    <element name="column" type="tns:row"/>
+</schema>

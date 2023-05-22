@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emulation:EmulationData xmlns:emulation="http:///emulation.ecore" isBW="true" location="/Unit_Test_Assertions/Tests/Unit_Test_Assertions1.bwt">
+  <ProcessNode Id="unit_test_assertions.Unit_Test_Assertions_SubProcess" Name="unit_test_assertions.Unit_Test_Assertions_SubProcess" ModelType="BW" moduleName="Unit_Test_Assertions">
+    <Assertion Id="69605ed1-0772-45bf-8789-3d5b86741974" Name="End" hasDecoration="true">
+      <Expression>
+&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; version=&quot;2.0&quot;>&lt;xsl:template match=&quot;/&quot;>&lt;/xsl:template>&lt;/xsl:stylesheet></Expression>
+      <OriginalExpression>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;&quot; match=&quot;/&quot;/>&lt;/xsl:stylesheet></OriginalExpression>
+    </Assertion>
+    <Operation Name="callProcess" serviceName="unit_test_assertions.Unit_Test_Assertions_SubProcess">
+      <Inputs Id="58f6a48b-236a-49e6-83fd-1fe7a1c5abdfUnit_Test_Assertions_unit_test_assertions.Unit_Test_Assertions_SubProcess_callProcess_Start" Name="Start" isDefault="true" type="CALLPROCESS">
+        <informations Name="input" nameSpace="http://www.example.com/namespaces/tns/1682502904208">
+          <nameSpaces prefix="tns" nameSapce="http://www.example.com/namespaces/tns/1682502904208"/>
+          <Parameter Name="tns:Element">
+            <parameters Name="tns:primitive" Value="EMIEA" type="string" nameSpace="http://www.example.com/namespaces/tns/1682502904208"/>
+          </Parameter>
+        </informations>
+      </Inputs>
+      <resolvedInput inputValue="&lt;tns:Element xmlns:tns='http://www.example.com/namespaces/tns/1682502904208' >&lt;tns:primitive>EMIEA&lt;/tns:primitive>&lt;/tns:Element>"/>
+    </Operation>
+  </ProcessNode>
+</emulation:EmulationData>

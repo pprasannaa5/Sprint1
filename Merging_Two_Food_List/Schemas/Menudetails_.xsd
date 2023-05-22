@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.example.org/Menudetails_" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org/Menudetails_">
+
+    <xsd:element name="details" type="details_type"></xsd:element>
+
+    <xsd:element name="price" type="xsd:string"></xsd:element>
+
+    <xsd:element name="quantity" type="xsd:string"></xsd:element>
+
+    <xsd:element name="menu1" type="menu1"></xsd:element>
+
+    <xsd:complexType name="details_type">
+    	<xsd:sequence>
+    		<xsd:element name="price" type="xsd:string"></xsd:element>
+    		<xsd:element name="quantity" type="xsd:string"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="menu1">
+    	<xsd:sequence>
+    		<xsd:element name="details" type="details_type" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

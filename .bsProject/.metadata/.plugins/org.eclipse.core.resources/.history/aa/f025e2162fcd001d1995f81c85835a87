@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/FetchingRows_from_SqlDirect_and_Parseit" xmlns:tns="http://www.example.org/FetchingRows_from_SqlDirect_and_Parseit" elementFormDefault="qualified">
+
+
+    <complexType name="ShoppingTable_A">
+    	<sequence>
+    		<element name="NAME" type="string"></element>
+    		<element name="NewElement1" type="string"></element>
+    		<element name="NewElement2" type="string"></element>
+    		<element name="NewElement3" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

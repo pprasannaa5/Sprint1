@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://www.example.com/namespaces/tns/1680765331015" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.com/namespaces/tns/1680765331015">
+  <xsd:element name="Element" type="tns:JsonTest1_Type" nillable="true" final="restriction">
+  </xsd:element>
+
+  <xsd:complexType name="JsonTest1_Type">
+  	<xsd:sequence>
+  		<xsd:element name="ID" type="xsd:string" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+  		<xsd:element name="NAME" type="xsd:string" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+  		<xsd:element name="COMPANY" type="xsd:string" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+  		<xsd:element name="LOCATION" type="xsd:string" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+  		<xsd:element name="RATING" type="xsd:string" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+  	</xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

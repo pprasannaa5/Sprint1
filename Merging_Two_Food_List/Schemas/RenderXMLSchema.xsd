@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/RenderXMLSchema" xmlns:tns="http://www.example.org/RenderXMLSchema" elementFormDefault="qualified">
+
+    <element name="name" type="tns:name_type"></element>
+
+    <element name="items" type="tns:items"></element>
+
+    <element name="breakfast" type="tns:breakfast_type"></element>
+
+    <element name="menu" type="tns:menu_type"></element>
+
+    <element name="details" type="tns:details_type"></element>
+
+    <element name="price" type="string"></element>
+
+    <element name="quantity" type="string"></element>
+
+    <complexType name="details_type">
+    	<sequence>
+    		<element ref="tns:price"></element>
+    		<element ref="tns:quantity"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="name_type">
+    	<sequence>
+    		<element ref="tns:details" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="items">
+    	<sequence>
+    		<element name="name" type="string" minOccurs="0"
+    			maxOccurs="unbounded">
+    		</element>
+    		<element ref="tns:details" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+
+    <complexType name="menu_type">
+    	<sequence>
+    		<element ref="tns:items" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="breakfast_type">
+    	<sequence>
+    		<element ref="tns:menu"></element>
+    	</sequence>
+    </complexType>
+</schema>

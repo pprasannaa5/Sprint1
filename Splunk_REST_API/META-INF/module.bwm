@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_ynBDMPZDEe2UQ-KhYrRp9A" targetNamespace="http://tns.tibco.com/bw/composite/Splunk_REST_API" name="Splunk_REST_API" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_zRYO0PZDEe2UQ-KhYrRp9A" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zRotgPZDEe2UQ-KhYrRp9A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zR5zQPZDEe2UQ-KhYrRp9A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSAg8PZDEe2UQ-KhYrRp9A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSH1sPZDEe2UQ-KhYrRp9A" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSOjYPZDEe2UQ-KhYrRp9A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSVREPZDEe2UQ-KhYrRp9A" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSdM4PZDEe2UQ-KhYrRp9A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zSlIsPZDEe2UQ-KhYrRp9A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_zCYJgPZDEe2UQ-KhYrRp9A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_zCYwkPZDEe2UQ-KhYrRp9A" processName="splunk_rest_api.Process"/>
+  </sca:component>
+</sca:composite>

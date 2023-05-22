@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_71Jg0M3tEe2DG442NrP3vQ" targetNamespace="http://tns.tibco.com/bw/composite/Sprint_one" name="Sprint_one" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_JT5DQs4BEe2xJf4WHTePTA" name="resource" promote="ComponentStateless_test/resource">
+    <sca:interface.wsdl xmi:id="_JUMlQM4BEe2xJf4WHTePTA" interface="http://xmlns.example.com/20230329102822#wsdl.interface(resource)" scaext:wsdlLocation="../Processes/sprint_one/Stateless_test.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_JUfgMM4BEe2xJf4WHTePTA" name="RestService" path="/resource" docBasePath="http://localhost:7777/Sprint_one" docResourcePath="Resource" basePath="/" connector="sprint_one.Resource" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/sprint_one.Stateless_test-Resource.json">
+      <operation xmi:id="_JUfgMs4BEe2xJf4WHTePTA" operationName="post" nickname="post-resource" httpMethod="POST" responseStyle="element" requestStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <advancedConfig xmi:id="_JUfgMc4BEe2xJf4WHTePTA" blockingQueueSize="2147483647"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_JUfgM84BEe2xJf4WHTePTA" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_8KgFwM3tEe2DG442NrP3vQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KgFwc3tEe2DG442NrP3vQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KgFws3tEe2DG442NrP3vQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KpPsM3tEe2DG442NrP3vQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KpPsc3tEe2DG442NrP3vQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KpPss3tEe2DG442NrP3vQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KpPs83tEe2DG442NrP3vQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8KzAsM3tEe2DG442NrP3vQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_8K2rEM3tEe2DG442NrP3vQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_PtrKcM3uEe2DG442NrP3vQ" name="ComponentFetchRows_from_SqlDirect_Parseit" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_PtrKcc3uEe2DG442NrP3vQ" processName="sprint_one.FetchRows_from_SqlDirect_Parseit"/>
+  </sca:component>
+  <sca:component xmi:id="_VIks4M3uEe2DG442NrP3vQ" name="ComponentStateless_test" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_VIks4c3uEe2DG442NrP3vQ" processName="sprint_one.Stateless_test"/>
+    <sca:service xmi:id="_JT5DQM4BEe2xJf4WHTePTA" name="resource">
+      <sca:interface.wsdl xmi:id="_JT5DQc4BEe2xJf4WHTePTA" interface="http://xmlns.example.com/20230329102822#wsdl.interface(resource)"/>
+    </sca:service>
+  </sca:component>
+  <sca:component xmi:id="_YfMqcM3uEe2DG442NrP3vQ" name="ComponentStatefull_test" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_YfMqcc3uEe2DG442NrP3vQ" processName="sprint_one.Statefull_test"/>
+  </sca:component>
+  <sca:component xmi:id="_8Kk8QM4DEe2xJf4WHTePTA" name="ComponentStateless_mainprocess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_8Kk8Qc4DEe2xJf4WHTePTA" processName="sprint_one.Stateless_mainprocess"/>
+  </sca:component>
+</sca:composite>

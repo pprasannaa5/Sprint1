@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_k1w-kNR9Ee2gI9HC_l6rPg" targetNamespace="http://tns.tibco.com/bw/composite/Test_2" name="Test_2" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:component xmi:id="_k-D-8NR9Ee2gI9HC_l6rPg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_k-D-8dR9Ee2gI9HC_l6rPg" processName="test_2.Process"/>
+  </sca:component>
+</sca:composite>

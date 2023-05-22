@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Module Configuration Property from &apos;Property&apos; to &apos;smtp.gmail.com&apos;" description="Rename Module Configuration Property from &apos;Property&apos; to &apos;smtp.gmail.com&apos;" flags="7" id="com.tibco.bw.core.design.refactoring.rename.moduleproperty" stamp="1680864356251"/>
+</session>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_dHDFgNeVEe2Th7NjMKQ5cQ" targetNamespace="http://tns.tibco.com/bw/composite/SMTP_Test" name="SMTP_Test" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_dfrn8NeVEe2Th7NjMKQ5cQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_df0x4NeVEe2Th7NjMKQ5cQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_df5qYNeVEe2Th7NjMKQ5cQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_df8tsNeVEe2Th7NjMKQ5cQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_dgA_INeVEe2Th7NjMKQ5cQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_dgECcNeVEe2Th7NjMKQ5cQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_dgL-QNeVEe2Th7NjMKQ5cQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_dgRd0NeVEe2Th7NjMKQ5cQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_dgVvQNeVEe2Th7NjMKQ5cQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_dS1ewNeVEe2Th7NjMKQ5cQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_dS1ewdeVEe2Th7NjMKQ5cQ" processName="smtp_test1.Process"/>
+  </sca:component>
+</sca:composite>

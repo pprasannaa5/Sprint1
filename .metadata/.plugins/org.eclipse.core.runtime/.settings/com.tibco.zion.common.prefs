@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+schema.creation.containerPath=JSON_Testdata/Service Descriptors
+schema.creation.targetNamespace=http\://www.example.org
+schema.creation.targetNamespacePrefix=tns

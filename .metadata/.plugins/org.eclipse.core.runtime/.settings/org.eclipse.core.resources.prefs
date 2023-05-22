@@ -1,0 +1,4 @@
+description.buildorder=Splunk_REST_API/Splunk_REST_API.application
+description.defaultbuildorder=false
+eclipse.preferences.version=1
+version=1

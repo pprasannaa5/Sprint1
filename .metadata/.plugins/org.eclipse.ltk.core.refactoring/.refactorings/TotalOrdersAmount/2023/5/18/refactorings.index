@@ -1,0 +1,3 @@
+1683116364806	Change XSD Complex Type name from 'MapperInputType' to 'customerorders'
+1683116470670	Change XSD Element name from 'MapperInput' to 'orders'
+1683116497307	Change XSD Element name from 'orders' to 'customerorders'

@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/Test_1/Service Descriptors/test_1.Process-Test1_Json.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1680765285265"
+}]}

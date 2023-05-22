@@ -1,0 +1,12 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/JnumericElements/Service Descriptors/jnumericelements.JnumericElements-JnumericElements.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1681279047552"
+    },
+    {
+        "jsonSchemaLocation": "/JnumericElements/Service Descriptors/jnumericelements.JnumericElements-JnumericElements.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1681279128189"
+    }
+]}

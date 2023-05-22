@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ce40e361-2591-4bce-b10a-9469c7868176="http://ns.tibco.com/bw/palette/dataformat/ce40e361-2591-4bce-b10a-9469c7868176" xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_EaoMUc1TEe2Y44k7K2S_KA" name="test_poc.Technology_dataformat" type="dataformat:DataFormat">
+  <imports xmi:id="_QUR64M1TEe2Y44k7K2S_KA" importType="http://www.w3.org/2001/XMLSchema" namespace="http://ns.tibco.com/bw/palette/dataformat/ce40e361-2591-4bce-b10a-9469c7868176"/>
+  <jndi:configuration xsi:type="dataformat:DataFormat" xmi:id="_EaoMUs1TEe2Y44k7K2S_KA" formatType="Delimiter separated" colSeparator="," colSeparatorParseRule="Treat all characters as entered as a single column separator string" lineSeparator="New Line" fillCharacter="Space" schemaElementQName="ce40e361-2591-4bce-b10a-9469c7868176:root" fieldOffsetsStr="t_id(0,0)&#xA;t_name(0,0)&#xA;t_company(0,0)&#xA;t_location(0,0)&#xA;t_rating(0,0)">
+    <fieldOffsets xmi:id="_WZjvsM1WEe2Y44k7K2S_KA" name="t_id"/>
+    <fieldOffsets xmi:id="_XY1bYM1WEe2Y44k7K2S_KA" name="t_name"/>
+    <fieldOffsets xmi:id="_YWdhQM1WEe2Y44k7K2S_KA" name="t_company"/>
+    <fieldOffsets xmi:id="_Zh4LgM1WEe2Y44k7K2S_KA" name="t_location"/>
+    <fieldOffsets xmi:id="_azT-MM1WEe2Y44k7K2S_KA" name="t_rating"/>
+  </jndi:configuration>
+</jndi:namedResource>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1681294817937" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1681294817937">
+  <complexType name="jsonElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="ID" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="NAME" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="COMPANY" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="LOCATION" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="RATING" type="string"/>
+    </sequence>
+  </complexType>
+  <element name="jsonElement" type="tns:jsonElementType"/>
+</schema>

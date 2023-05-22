@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:dataformat="http://ns.tibco.com/bw/palette/dataformat/421bbed9-494e-4dd3-934e-08ec7e3ac5b6" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ns.tibco.com/bw/palette/dataformat/421bbed9-494e-4dd3-934e-08ec7e3ac5b6">
+  <xsd:element name="root" tibex:source="sr.index.dataFormatResource">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="s.no" type="xsd:string"/>
+        <xsd:element name="customer_name" type="xsd:string"/>
+        <xsd:element name="customer_id" type="xsd:int"/>
+        <xsd:element name="order_name" type="xsd:string"/>
+        <xsd:element name="order_price" type="xsd:int"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

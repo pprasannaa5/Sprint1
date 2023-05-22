@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmi:id="_71Jg0M3tEe2DG442NrP3vQ" targetNamespace="http://tns.tibco.com/bw/composite/Sprint_one" name="Sprint_one" compositeext:version="1.0.0" compositeext:formatVersion="2"/>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change XSD Element name from &apos;primitive&apos; to &apos;min1&apos;" description="Change XSD Element name from &apos;primitive&apos; to &apos;min1&apos;" flags="6" id="com.tibco.zion.refactoring.renameXSDElementDescriptor" stamp="1681985718238"/>&#x0A;<refactoring comment="Change XSD Complex Type name from &apos;MapperInputType&apos; to &apos;minimum&apos;" description="Change XSD Complex Type name from &apos;MapperInputType&apos; to &apos;minimum&apos;" flags="6" id="com.tibco.zion.refactoring.renameXSDTypeDescriptor" stamp="1681985760399"/>
+</session>

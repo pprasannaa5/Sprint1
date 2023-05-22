@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sprint_one/Schemas/bookstore_NewXMLSchema.xsd&apos; to &apos;breakfast_menu_NewXMLSchema.xsd&apos;" description="Rename resource &apos;bookstore_NewXMLSchema.xsd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Schemas/bookstore_NewXMLSchema.xsd" name="breakfast_menu_NewXMLSchema.xsd" stamp="1681973232214" updateReferences="true"/>
+</session>

@@ -1,0 +1,13 @@
+{
+    "records": [],
+    "resources": [
+        {
+            "location": "Service Descriptors/json_testdata.Process-JSON_Testdata_Resource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/json_testdata.Resource-Resource.json",
+            "type": "generated"
+        }
+    ]
+}

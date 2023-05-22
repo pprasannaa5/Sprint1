@@ -1,0 +1,115 @@
+2023-04-14 18:42:10,863 [Worker-39] INFO  com.tibco.bw.migration.debug  - Generating BW 6 application for BW5 project/projects at c:\tibcobw5\designer\5.7\Test_Project2\abc5x\Read
+2023-04-14 18:42:11,381 [Worker-39] INFO  com.tibco.bw.migration.debug  - Migrating Global Variables..
+2023-04-14 18:42:11,637 [Worker-39] INFO  com.tibco.bw.migration.debug  - Migrating Shared Resources..
+2023-04-14 18:42:11,763 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Found Migrator for fileExtensionsharedparse  com.tibco.bw.tools.migrator.v6.palette.parse.sharedResource.DataFormatSharedResourceTypeMigrator@7e2764d7
+2023-04-14 18:42:12,010 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Found Migrator for fileExtensionsharedparse  com.tibco.bw.tools.migrator.v6.palette.parse.sharedResource.DataFormatSharedResourceTypeMigrator@7e2764d7
+2023-04-14 18:42:12,265 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Found Migrator for fileExtensionsharedparse  com.tibco.bw.tools.migrator.v6.palette.parse.sharedResource.DataFormatSharedResourceTypeMigrator@7e2764d7
+2023-04-14 18:42:12,530 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Found Migrator for fileExtensionsharedparse  com.tibco.bw.tools.migrator.v6.palette.parse.sharedResource.DataFormatSharedResourceTypeMigrator@7e2764d7
+2023-04-14 18:42:12,799 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Found Migrator for fileExtensionsharedparse  com.tibco.bw.tools.migrator.v6.palette.parse.sharedResource.DataFormatSharedResourceTypeMigrator@7e2764d7
+2023-04-14 18:42:13,209 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://ns.tibco.com/bw/palette/dataformat/abc5x/Read/migrate/Data-Format.xsd       file:/e:/practice2/Test_Project2/abc5x/Read/abc5x/Read/migrate/Data-Format.xsd
+2023-04-14 18:42:13,210 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://ns.tibco.com/bw/palette/dataformat/abc5x/Read/migrate/Data-Format.xsd   with location   e:/practice2/Test_Project2/abc5x/Read/abc5x/Read/migrate/Data-Format.xsd
+2023-04-14 18:42:13,210 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://ns.tibco.com/bw/palette/dataformat/abc5x/Readfile/Data-Format.xsd       file:/e:/practice2/Test_Project2/abc5x/Read/abc5x/Readfile/Data-Format.xsd
+2023-04-14 18:42:13,211 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://ns.tibco.com/bw/palette/dataformat/abc5x/Readfile/Data-Format.xsd   with location   e:/practice2/Test_Project2/abc5x/Read/abc5x/Readfile/Data-Format.xsd
+2023-04-14 18:42:13,211 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://ns.tibco.com/bw/palette/dataformat/Data-Format.xsd       file:/e:/practice2/Test_Project2/abc5x/Read/Data-Format.xsd
+2023-04-14 18:42:13,212 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://ns.tibco.com/bw/palette/dataformat/Data-Format.xsd   with location   e:/practice2/Test_Project2/abc5x/Read/Data-Format.xsd
+2023-04-14 18:42:13,212 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://ns.tibco.com/bw/palette/dataformat/migrate/Read/migrate/Data-Format.xsd       file:/e:/practice2/Test_Project2/abc5x/Read/migrate/Read/migrate/Data-Format.xsd
+2023-04-14 18:42:13,213 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://ns.tibco.com/bw/palette/dataformat/migrate/Read/migrate/Data-Format.xsd   with location   e:/practice2/Test_Project2/abc5x/Read/migrate/Read/migrate/Data-Format.xsd
+2023-04-14 18:42:13,213 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://ns.tibco.com/bw/palette/dataformat/Read1/migrate/Data-Format.xsd       file:/e:/practice2/Test_Project2/abc5x/Read/Read1/migrate/Data-Format.xsd
+2023-04-14 18:42:13,214 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://ns.tibco.com/bw/palette/dataformat/Read1/migrate/Data-Format.xsd   with location   e:/practice2/Test_Project2/abc5x/Read/Read1/migrate/Data-Format.xsd
+2023-04-14 18:42:13,214 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/baseDocument       file:/e:/practice2/Test_Project2/abc5x/Read/Schemas/ae/baseDocument.xsd
+2023-04-14 18:42:13,215 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/baseDocument   with location   e:/practice2/Test_Project2/abc5x/Read/Schemas/ae/baseDocument.xsd
+2023-04-14 18:42:13,215 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://www.tibco.com/xmlns/ae2xsd/2002/05       file:/e:/practice2/Test_Project2/abc5x/Read/Schemas/ae2xsd.xsd
+2023-04-14 18:42:13,216 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05   with location   e:/practice2/Test_Project2/abc5x/Read/Schemas/ae2xsd.xsd
+2023-04-14 18:42:13,216 [Worker-39] DEBUG com.tibco.bw.migration.debug  - http://www.tibco.com/xmlns/ae2xsd/2002/05       file:/e:/practice2/Test_Project2/abc5x/Read/Schemas/ae2xsd.xsd
+2023-04-14 18:42:13,217 [Worker-39] DEBUG com.tibco.bw.migration.debug  - Added Schema to ResourceSet => http://www.tibco.com/xmlns/ae2xsd/2002/05   with location   e:/practice2/Test_Project2/abc5x/Read/Schemas/ae2xsd.xsd
+2023-04-14 18:42:13,217 [Worker-39] INFO  com.tibco.bw.migration.debug  - Migrating Processes..
+2023-04-14 18:42:13,218 [Worker-39] INFO  com.tibco.bw.migration.debug  - Process Migration Order is => 
+2023-04-14 18:42:13,219 [Worker-39] INFO  com.tibco.bw.migration.debug  - abc5x/Read/migrate/Process Definition.process
+2023-04-14 18:42:13,220 [Worker-39] INFO  com.tibco.bw.migration.debug  - abc5x/Readfile/Process Definition.process
+2023-04-14 18:42:13,221 [Worker-39] INFO  com.tibco.bw.migration.debug  - migrate/Read/migrate/Process Definition.process
+2023-04-14 18:42:13,222 [Worker-39] INFO  com.tibco.bw.migration.debug  - Process Definition.process
+2023-04-14 18:42:13,222 [Worker-39] INFO  com.tibco.bw.migration.debug  - Read1/migrate/Process Definition.process
+2023-04-14 18:42:13,274 [Worker-39] ERROR com.tibco.bw.migration.debug  - e:\practice2\Test_Project2\abc5xc:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.bwp (The filename, directory name, or volume label syntax is incorrect)
+java.io.FileNotFoundException: e:\practice2\Test_Project2\abc5xc:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.bwp (The filename, directory name, or volume label syntax is incorrect)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.tibco.bw.migration.util.MigrationUtils.writeToFile(MigrationUtils.java:1287)
+	at com.tibco.bw.tools.migrator.v6.utils.Bw6ProcessBuilderUtils.createEmptyProcessAndWrite(Bw6ProcessBuilderUtils.java:2921)
+	at com.tibco.bw.tools.migrator.v6.utils.Bw6ProcessBuilderUtils.createEmptyProcessAndWrite(Bw6ProcessBuilderUtils.java:2767)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateEmptyProcesses(Bw6ProcessGenerator.java:232)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateProcesses(Bw6ProcessGenerator.java:124)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generate(Bw6ProcessGenerator.java:113)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProcesses(CompositeApplicationGenerator.java:1521)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.writeCompositeAppProject(CompositeApplicationGenerator.java:585)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProject(CompositeApplicationGenerator.java:368)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generate(CompositeApplicationGenerator.java:221)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:159)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:100)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.migrateProject(ProjectMigrationJob.java:222)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.startMigration(ProjectMigrationJob.java:209)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.run(ProjectMigrationJob.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2023-04-14 18:42:13,277 [Worker-39] ERROR com.tibco.bw.migration.debug  - java.io.FileNotFoundException: e:\practice2\Test_Project2\abc5xc:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.bwp (The filename, directory name, or volume label syntax is incorrect)
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: java.io.FileNotFoundException: e:\practice2\Test_Project2\abc5xc:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.bwp (The filename, directory name, or volume label syntax is incorrect)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:377)
+	at com.tibco.bw.tools.migrator.v6.utils.Bw6ProcessBuilderUtils.createEmptyProcessAndWrite(Bw6ProcessBuilderUtils.java:2930)
+	at com.tibco.bw.tools.migrator.v6.utils.Bw6ProcessBuilderUtils.createEmptyProcessAndWrite(Bw6ProcessBuilderUtils.java:2767)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateEmptyProcesses(Bw6ProcessGenerator.java:232)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateProcesses(Bw6ProcessGenerator.java:124)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generate(Bw6ProcessGenerator.java:113)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProcesses(CompositeApplicationGenerator.java:1521)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.writeCompositeAppProject(CompositeApplicationGenerator.java:585)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProject(CompositeApplicationGenerator.java:368)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generate(CompositeApplicationGenerator.java:221)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:159)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:100)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.migrateProject(ProjectMigrationJob.java:222)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.startMigration(ProjectMigrationJob.java:209)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.run(ProjectMigrationJob.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: e:\practice2\Test_Project2\abc5xc:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.bwp (The filename, directory name, or volume label syntax is incorrect)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.emf.ecore.resource.impl.FileURIHandlerImpl.createInputStream(FileURIHandlerImpl.java:99)
+	at org.eclipse.emf.ecore.resource.impl.ExtensibleURIConverterImpl.createInputStream(ExtensibleURIConverterImpl.java:360)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1269)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 16 more
+2023-04-14 18:42:13,296 [Worker-39] ERROR com.tibco.bw.migration.debug  - Illegal char <:> at index 39: e:\practice2\Test_Project2\abc5x\Read\c:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.process
+java.nio.file.InvalidPathException: Illegal char <:> at index 39: e:\practice2\Test_Project2\abc5x\Read\c:\tibcobw5\designer\T5_7\Test_Project2\Read1\migrate\Process-Definition.process
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94)
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255)
+	at java.nio.file.Paths.get(Paths.java:84)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.buildProcess(Bw6ProcessGenerator.java:751)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generate(Bw6ProcessGenerator.java:329)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateProcesses(Bw6ProcessGenerator.java:272)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generateProcesses(Bw6ProcessGenerator.java:131)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.Bw6ProcessGenerator.generate(Bw6ProcessGenerator.java:113)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProcesses(CompositeApplicationGenerator.java:1521)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.writeCompositeAppProject(CompositeApplicationGenerator.java:585)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generateProject(CompositeApplicationGenerator.java:368)
+	at com.tibco.bw.tools.migrator.v6.composite.application.generator.impl.CompositeApplicationGenerator.generate(CompositeApplicationGenerator.java:221)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:159)
+	at com.tibco.bw.tools.migrator.v6.impl.Bw6MigratorV2.migrate(Bw6MigratorV2.java:100)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.migrateProject(ProjectMigrationJob.java:222)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.startMigration(ProjectMigrationJob.java:209)
+	at com.tibco.bw.tools.migrator.v6.utils.ProjectMigrationJob$MigrationJob.run(ProjectMigrationJob.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+2023-04-14 18:42:13,297 [Worker-39] INFO  com.tibco.bw.migration.debug  - Migration Progress:
+	Total Processes = 1
+	Migrated Processes = 0
+	Partially Migrated Processes = 1
+	Remaining Processes to Migrate = 1
+2023-04-14 18:42:14,075 [Worker-39] INFO  com.tibco.bw.migration.debug  - Generating BW 6 application for BW5 project/projects at C:\tibcobw5\designer\5.7\Test_Project2
+2023-04-14 18:42:14,512 [Worker-39] ERROR com.tibco.bw.migration.debug  - 
+
+The 'no null' constraint is violated
